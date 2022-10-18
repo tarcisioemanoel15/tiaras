@@ -1,0 +1,24 @@
+Publicar no Github
+1 passo
+cola no package.json quarta posição
+
+"homepage": "https://myusername.github.io/my-app",
+
+2 passo instal
+npm install --save gh-pages
+
+3 passo dentro de 
+"scripts":{
+
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
+}
+
+4 passo 
+npm run deploy
+
+* 1 *
+Instalção React do Zero
+npx create-react-app my-app
+cd my-app
+npm start
