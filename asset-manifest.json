@@ -1,14 +1,19 @@
 {
   "files": {
     "main.css": "/tiaras/static/css/main.45d0b8b8.css",
-    "main.js": "/tiaras/static/js/main.4d572d0f.js",
+    "main.js": "/tiaras/static/js/main.350b77bf.js",
+    "static/media/1000pxfundo1.jpg": "/tiaras/static/media/1000pxfundo1.8c0349815c55ba0048d9.jpg",
     "static/media/Parisienne-Regular.ttf": "/tiaras/static/media/Parisienne-Regular.82a775783a33ce6f911d.ttf",
+    "static/media/500pxfundo1.jpg": "/tiaras/static/media/500pxfundo1.3622f51f7db7cca94ba2.jpg",
+    "static/media/1fundopequeno.jpg": "/tiaras/static/media/1fundopequeno.3356c4af42791e2f4327.jpg",
+    "static/media/precos30.png": "/tiaras/static/media/precos30.43f7231aa69a51bbcf8b.png",
+    "static/media/Transparent.png": "/tiaras/static/media/Transparent.de2af2a7b34487453740.png",
     "index.html": "/tiaras/index.html",
     "main.45d0b8b8.css.map": "/tiaras/static/css/main.45d0b8b8.css.map",
-    "main.4d572d0f.js.map": "/tiaras/static/js/main.4d572d0f.js.map"
+    "main.350b77bf.js.map": "/tiaras/static/js/main.350b77bf.js.map"
   },
   "entrypoints": [
     "static/css/main.45d0b8b8.css",
-    "static/js/main.4d572d0f.js"
+    "static/js/main.350b77bf.js"
   ]
 }
