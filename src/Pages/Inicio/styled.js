@@ -13,15 +13,17 @@ width: 30%;
 height: 28%;
 
 position: absolute;
-bottom: 57%;
+bottom: 56.9%;
 left: 3%;
 text-align: center;
 
 @media screen and (max-width: 800px){
-left: 5%;
+left: 1%;
 bottom:  0%;
 color:white;
-  
+border-radius: 0;
+width: 34%;
+
 }
 `;
 
@@ -58,6 +60,9 @@ text-align: center;
   left: 65%;
   bottom: 0%;
   color:white;
+  border-radius: 0;
+  width: 32%;
+
 
   
 }
