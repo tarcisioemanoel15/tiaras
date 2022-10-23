@@ -32,6 +32,10 @@ width: 35%;
 height: 45%;
 }
 
+@font-face {
+  font-family: ;
+  src: url('./');
+}
 `;
 
 export const Main1 = styled.article`
