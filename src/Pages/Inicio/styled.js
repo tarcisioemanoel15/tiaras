@@ -18,13 +18,19 @@ left: 3%;
 text-align: center;
 
 @media screen and (max-width: 800px){
-left: 1%;
+left: 0%;
 bottom:  0%;
 color:white;
 border-radius: 0;
-width: 34%;
-
+width: 35%;
 }
+
+
+
+@media screen and (max-width: 550px){
+height: 45%;
+}
+
 `;
 
 export const Main1 = styled.article`
@@ -40,9 +46,13 @@ text-align: center;
   left: 35%;
   bottom: 0;
   color:white;
-
-  
 }
+
+ 
+@media screen and (max-width: 550px){
+height: 45%;
+}
+ 
 `;
 
 export const Main2 = styled.article`
@@ -62,10 +72,14 @@ text-align: center;
   color:white;
   border-radius: 0;
   width: 32%;
+}
 
+
+@media screen and (max-width: 550px){
+height: 45%;
+}
 
   
-}
 
 `;
 

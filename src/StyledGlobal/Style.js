@@ -9,10 +9,15 @@ width: 100%;
 
 
 export const Main = styled.main`
-background-color: black;
-height: 100vh;
+background-color: red;
+height: 85vh;
 width: 100vw;
-margin-bottom: 50px;
+/* margin-bottom: 50px; */
+@media screen and (max-width: 590px) {
+background-color: black;
+height: 65vh;
+
+}
 `;
 
 export const Section = styled.section`

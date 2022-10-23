@@ -1,8 +1,8 @@
 import './App.css';
 import Home from "./Components/Home";
 import Inicio from "./Pages/Inicio";
+import Carousel from "./Components/Carousel";
 import { Section, Main, Header } from './StyledGlobal/Style';
-
 function App() {
   return (
 
@@ -13,12 +13,17 @@ function App() {
         <Home />
       </Header>
 
+
+
+
       <Main>
         <Inicio />
       </Main>
 
+      <Section>
+        <Carousel />
+      </Section>
 
-      <Section></Section>
 
 
 
