@@ -5,8 +5,10 @@ import milpxfundo2 from "../../assets/img/500pxfundo1.jpg";
 import milpxfundo3 from "../../assets/img/1fundopequeno.jpg";
 
 export const Main = styled.article`
+display: grid;
+justify-content: center;
 background: #f388e08c;
-
+padding: 15px;
 border-radius: 50px 0px 0px 0px ;
 color: black;
 width: 30%;
@@ -20,7 +22,6 @@ text-align: center;
 @media screen and (max-width: 800px){
 left: 0%;
 bottom:  0%;
-color:white;
 border-radius: 0;
 width: 35%;
 }
@@ -34,6 +35,9 @@ height: 45%;
 `;
 
 export const Main1 = styled.article`
+display: grid;
+justify-content: center;
+padding: 15px;
 background: #f388e08c;
 color: black;
 width: 30%;
@@ -45,7 +49,6 @@ text-align: center;
 @media screen and (max-width: 800px){
   left: 35%;
   bottom: 0;
-  color:white;
 }
 
  
@@ -56,6 +59,9 @@ height: 45%;
 `;
 
 export const Main2 = styled.article`
+display: grid;
+justify-content: center;
+padding: 15px;
  background: #f388e08c;
  color: black; 
  border-radius: 0px 0px 50px 0px ;
@@ -69,7 +75,6 @@ text-align: center;
 @media screen and (max-width: 800px){
   left: 65%;
   bottom: 0%;
-  color:white;
   border-radius: 0;
   width: 32%;
 }
@@ -78,8 +83,6 @@ text-align: center;
 @media screen and (max-width: 550px){
 height: 45%;
 }
-
-  
 
 `;
 
@@ -93,9 +96,8 @@ background-size: cover;
 background-position: center right;
 
 bottom: -1;
-color: yellow;
 width: 100vw;
-height: 85vh;
+height: 95vh;
 position: absolute;
 
 @media screen and (max-width: 800px){
@@ -109,6 +111,17 @@ position: absolute;
   height: 65vh;
 }
 
+`;
 
 
+
+export const Span = styled.span`
+width: 100px;
+background-color: black;
+color: wheat;
+
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
 `;

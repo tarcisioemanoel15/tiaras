@@ -1,5 +1,4 @@
-import { Main, Main1, Main2, FundoImg } from "./styled";
-import precos30 from "../../assets/img/precos30.png";
+import { Main, Main1, Main2, FundoImg, Span } from "./styled";
 import Transparent from "../../assets/img/Transparent.png";
 
 
@@ -12,29 +11,31 @@ export default function Inicio() {
       <FundoImg>
 
         <Main>
-          <>
-            <img src={Transparent} alt="erroTiara" />
-            <img src={precos30} alt="erropreco" />
-          </>
-
           <h6>ID: 1</h6>
+          <img src={Transparent} alt="erroTiara" />
+          <Span>
+            <span>R$: 30,00</span>
+          </Span>
+
         </Main>
 
         <Main1>
-          <>
-            <img src={Transparent} alt="erroTiara" />
-            <img src={precos30} alt="erropreco" />
-          </>
           <h6>ID: 2</h6>
+          <img src={Transparent} alt="erroTiara" />
+          <Span>
+            <span>R$: 30,00</span>
+          </Span>
         </Main1>
 
+
         <Main2>
-          <>
-            <img src={Transparent} alt="erroTiara" />
-            <img src={precos30} alt="erropreco" />
-          </>
           <h6>ID: 3</h6>
+          <img src={Transparent} alt="erroTiara" />
+          <Span>
+            <span>R$: 20,00</span>
+          </Span>
         </Main2>
+
       </FundoImg>
 
     </div >
