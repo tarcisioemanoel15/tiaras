@@ -1,7 +1,7 @@
-@font-face {
-  font-family: Dancing;
-  src: url('../../../public/fonts/Parisienne/Parisienne-Regular.ttf');
-}
+import styled from 'styled-components';
+
+export const Homee = styled.header`
+
 
 li,
 a {
@@ -9,12 +9,11 @@ a {
   list-style: none;
   margin-right: 10px;
   padding-bottom: 10px;
-  font-family: Dancing;
   color: white;
-
 }
 
 header {
+  background-color:#f513e838;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -29,7 +28,6 @@ header h3 {
   font-family: Dancing;
   margin-left: 15px;
   color: white;
-
 }
 
 nav ul {
@@ -125,3 +123,4 @@ nav ul {
 
 
 }
+`;

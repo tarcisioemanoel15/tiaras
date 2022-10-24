@@ -1,6 +1,7 @@
 // import {FaBars, FaTimes} from 'react-icons/fa';
 import { useState } from "react";
-import "./style.css";
+import { Homee } from "./style";
+
 export default function Home() {
 
   const [active, setMode] = useState(false);
@@ -11,30 +12,33 @@ export default function Home() {
 
   return (
 
-    <header>
+    <Homee>
 
-      <h3>LOGO</h3>
+      <header>
 
-
-
-      <nav className={active ? "menu menuOpen" : "menu menuClos"}>
+        <h3>LOGO</h3>
 
 
-        <ul className='listItens'>
-          <li><a href="/#">Home1</a></li>
-          <li><a href="/#">Home2</a></li>
-          <li><a href="/#">Home3</a></li>
-          <li><a href="/#">Home4</a></li>
-          <li><a href="/#">Home5</a></li>
-        </ul>
 
-      </nav>
-      {/* instalar npm install react-icons */}
+        <nav className={active ? "menu menuOpen" : "menu menuClos"}>
 
-      <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
-        <div className="hamburguer hamburguerIcon"></div>
-      </div>
 
-    </header>
+          <ul className='listItens'>
+            <li><a href="/#">Home1</a></li>
+            <li><a href="/#">Home2</a></li>
+            <li><a href="/#">Home3</a></li>
+            <li><a href="/#">Home4</a></li>
+            <li><a href="/#">Home5</a></li>
+          </ul>
+
+        </nav>
+        {/* instalar npm install react-icons */}
+
+        <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
+          <div className="hamburguer hamburguerIcon"></div>
+        </div>
+
+      </header>
+    </Homee>
   );
 }
