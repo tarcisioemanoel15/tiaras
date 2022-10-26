@@ -39,7 +39,6 @@ article{
 }
 
 article div{
-  background-color: #ff41ff73;
   border-radius: 50px;
   padding: 10px 10px;
   display: grid;

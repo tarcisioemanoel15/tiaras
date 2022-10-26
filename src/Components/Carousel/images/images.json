@@ -1,6 +1,16 @@
 [
   {
     "id": 4,
+    "preco": "10:00",
+    "image": "./01/1fundopequeno.jpg"
+  },
+  {
+    "id": 5,
+    "preco": "20:00",
+    "image": "./01/1fundopequeno.jpg"
+  },
+  {
+    "id": 6,
     "preco": "50:00",
     "image": "./01/1fundopequeno.jpg"
   }

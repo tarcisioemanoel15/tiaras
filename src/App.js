@@ -2,6 +2,10 @@ import './App.css';
 import Home from "./Components/Home";
 import Inicio from "./Components/Pages/Inicio";
 import Carousel from "./Components/Carousel";
+
+
+
+
 function App() {
   return (
 
@@ -10,6 +14,7 @@ function App() {
       <Home />
       <Inicio />
       <Carousel />
+
     </div>
 
   );

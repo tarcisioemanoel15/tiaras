@@ -1,34 +1,12 @@
 import { CaroUsel } from "./styled";
+
 import fundopequeno from "./images/01/1fundopequeno.jpg";
-
-import imagesJson from "../../images.json";
-
 
 function Carousel() {
 
   return (
     <CaroUsel>
-
-      {
-        imagesJson.map(res => {
-
-          return (
-            <div className="item" key={res.id}>
-              <h1>{res.id}</h1>
-              <img src={res.image} alt="err" />
-              <p>{res.preco}</p>
-            </div>
-          );
-
-
-
-        })
-      }
-
       <img src={fundopequeno} alt="as" />
-
-
-
     </CaroUsel>
   )
 
