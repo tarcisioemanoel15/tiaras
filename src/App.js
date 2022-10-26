@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Home />
       <Inicio />
+      <h1>AAAAAAAA</h1>
       <Carousel />
 
     </div>
