@@ -1,7 +1,14 @@
 import styled from 'styled-components';
 
+import Parisienne from "../fonts/Parisienne/Parisienne-Regular.ttf";
+
 export const Homee = styled.header`
 
+
+@font-face {
+  font-family: parisienne ;
+  src: url(${Parisienne});
+};
 
 li,
 a {
@@ -13,6 +20,7 @@ a {
 }
 
 header {
+  font-family: parisienne;
   background-color:#f513e838;
   display: flex;
   justify-content: space-between;
@@ -25,7 +33,8 @@ header {
 }
 
 header h3 {
-  font-family: Dancing;
+  font-family: parisienne;
+
   margin-left: 15px;
   color: white;
 }

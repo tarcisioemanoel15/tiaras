@@ -4,7 +4,15 @@ import milpxfundo1 from "../../assets/img/1000pxfundo1.jpg";
 import milpxfundo2 from "../../assets/img/500pxfundo1.jpg";
 import milpxfundo3 from "../../assets/img/1fundopequeno.jpg";
 
+import Parisienne from "../../fonts/Parisienne/Parisienne-Regular.ttf";
+
 export const FundoImg = styled.article`
+
+@font-face {
+  font-family: parisienne ;
+  src: url(${Parisienne});
+};
+font-family: parisienne;
 
 background-color: aliceblue;
 background-image: url(${milpxfundo1});
