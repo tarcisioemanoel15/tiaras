@@ -1,4 +1,4 @@
-import './App.css';
+// import { Div } from "./styled";
 import Home from "./Components/Home";
 import Inicio from "./Components/Pages/Inicio";
 import Carousel from "./Components/Carousel";
@@ -13,8 +13,13 @@ function App() {
     <div className="App">
       <Home />
       <Inicio />
-      <h1>AAAAAAAA</h1>
+
+
+
       <Carousel />
+
+
+
 
     </div>
 

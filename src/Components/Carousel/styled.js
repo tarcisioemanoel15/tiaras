@@ -1,21 +1,8 @@
 import styled from "styled-components";
 
-export const CaroUsel = styled.div`
+export const Carousell = styled.div`
 
-h1{
-  color: white;
-
-  background-color: black;
-}
-
-
-
-
-
-
-
-
-/* .caixa {
+.caixa {
   text-align: center;
 }
 
@@ -94,5 +81,4 @@ h1{
 .buttons button:first-child {
   transform: rotate(180deg);
 }
-   */
-  `;
+  `; 
