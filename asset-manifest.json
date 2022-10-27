@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tiaras/static/css/main.c7ec3132.css",
-    "main.js": "/tiaras/static/js/main.90637337.js",
+    "main.js": "/tiaras/static/js/main.a89387b7.js",
     "static/media/1000pxfundo1.jpg": "/tiaras/static/media/1000pxfundo1.8c0349815c55ba0048d9.jpg",
     "static/media/Parisienne-Regular.ttf": "/tiaras/static/media/Parisienne-Regular.82a775783a33ce6f911d.ttf",
     "static/media/500pxfundo1.jpg": "/tiaras/static/media/500pxfundo1.3622f51f7db7cca94ba2.jpg",
@@ -9,10 +9,10 @@
     "static/media/Transparent.png": "/tiaras/static/media/Transparent.de2af2a7b34487453740.png",
     "index.html": "/tiaras/index.html",
     "main.c7ec3132.css.map": "/tiaras/static/css/main.c7ec3132.css.map",
-    "main.90637337.js.map": "/tiaras/static/js/main.90637337.js.map"
+    "main.a89387b7.js.map": "/tiaras/static/js/main.a89387b7.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.90637337.js"
+    "static/js/main.a89387b7.js"
   ]
 }
