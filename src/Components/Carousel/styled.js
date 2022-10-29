@@ -2,8 +2,20 @@ import styled from "styled-components";
 
 export const Carousell = styled.div`
 
+
+@font-face {
+  // ./fonts/Parisienne/Parisienne-Regular.ttf
+  // ./fonts/Dancing/DancingScript-VariableFont_wght.ttf
+  font-family: Dancingenne;
+  src: url('./fonts/Dancing/static/DancingScript-Bold.ttf');
+}
+
+
+font-family: Dancingenne;
+
 .caixa {
   text-align: center;
+  margin-left: -14px;
 }
 
 .caixa h1 {
@@ -30,7 +42,7 @@ export const Carousell = styled.div`
   justify-content: center;
   align-items: center;
   background-color: rgba(16, 87, 150, 0.288);
-  width: 90%;
+  width: 100%;
   min-height: 200px;
   margin: auto;
 }

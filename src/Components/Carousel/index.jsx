@@ -40,9 +40,9 @@ function Carousel() {
             const { id, image, price } = item;
             return (
 
-              <div className="carousel" >
+              <div className="carousel" key={id} >
 
-                <div className="item" key={id} >
+                <div className="item" >
 
                   <div className="foto">
                     <img src={image} alt="Tara1" />
