@@ -1,16 +1,15 @@
 import styled from "styled-components";
 
-import milpxfundo1 from "../../assets/img/1000pxfundo1.jpg";
-import milpxfundo2 from "../../assets/img/500pxfundo1.jpg";
-import milpxfundo3 from "../../assets/img/1fundopequeno.jpg";
+import milpxfundo1 from "../img/1000pxfundo1.jpg";
+import milpxfundo2 from "../img/500pxfundo1.jpg";
+import milpxfundo3 from "../img/1fundopequeno.jpg";
 
-import Parisienne from "../../fonts/Parisienne/Parisienne-Regular.ttf";
 
 export const FundoImg = styled.article`
 
 @font-face {
   font-family: parisienne ;
-  src: url(${Parisienne});
+  src: url('./static/fonts/Parisienne/Parisienne-Regular.ttf');
 };
 font-family: parisienne;
 
@@ -22,20 +21,20 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 width: 100%;
-height: 95vh;
+/* height: 95vh; */
 
 article{
   background-color: #ff41ff73;
   width: 300px;
-  height: 85%;
-  margin-top: 45px;
+  /* height: 85%; */
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   margin-left: 30px;
   border-radius: 40px 0px 40px 0px;
-  gap: 32px
+  /* gap: 32px */
 }
 
 article div{
@@ -45,10 +44,16 @@ article div{
   justify-content: center;
 }
 
+article div img{
+  width: 150px;
+}
+
+
 article div span{
   width: 100%;
   background-color: #ff41ff73;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 780px){
@@ -66,7 +71,7 @@ article div span{
     align-items: center ;
     position: absolute;
     bottom: 0;
-    gap:70px
+    gap:45px
     }
  }
  
@@ -77,6 +82,9 @@ article div span{
 
     article{
       gap: 5px
+    }
+    article div img{
+      width: 90px;
     }
   }
 `;

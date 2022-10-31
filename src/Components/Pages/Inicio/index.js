@@ -1,5 +1,8 @@
 import { FundoImg } from "./styled";
-import Transparent from "../../assets/img/Transparent.png";
+import Tiara1 from "../img/1px200.png";
+import Tiara2 from "../img/2px200.png";
+import Tiara3 from "../img/3px200.png";
+
 
 
 
@@ -14,7 +17,7 @@ export default function Inicio() {
 
           <div>
             <h6>ID: 1</h6>
-            <img src={Transparent} alt="erroTiara" />
+            <img src={Tiara1} alt="erroTiara" />
             <span>R$: 30,00</span>
           </div>
 
@@ -22,7 +25,7 @@ export default function Inicio() {
 
           <div>
             <h6>ID: 2</h6>
-            <img src={Transparent} alt="erroTiara" />
+            <img src={Tiara2} alt="erroTiara" />
             <span>R$: 30,00</span>
           </div>
 
@@ -30,8 +33,8 @@ export default function Inicio() {
 
           <div>
             <h6>ID: 3</h6>
-            <img src={Transparent} alt="erroTiara" />
-            <span>R$: 20,00</span>
+            <img src={Tiara3} alt="erroTiara" />
+            <span>R$: 30,00</span>
           </div>
 
         </article>

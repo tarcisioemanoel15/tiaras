@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
-import Parisienne from "../fonts/Parisienne/Parisienne-Regular.ttf";
 
 export const Homee = styled.header`
 
 
 @font-face {
   font-family: parisienne ;
-  src: url(${Parisienne});
+  src: url('./static/fonts/Parisienne/Parisienne-Regular.ttf');
 };
 
 li,

@@ -4,10 +4,8 @@ export const Carousell = styled.div`
 
 
 @font-face {
-  // ./fonts/Parisienne/Parisienne-Regular.ttf
-  // ./fonts/Dancing/DancingScript-VariableFont_wght.ttf
   font-family: Dancingenne;
-  src: url('./fonts/Dancing/static/DancingScript-Bold.ttf');
+  src: url('./static/fonts/Dancing/static/DancingScript-Bold.ttf');
 }
 
 
