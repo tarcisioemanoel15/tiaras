@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tiaras/static/css/main.c7ec3132.css",
-    "main.js": "/tiaras/static/js/main.e1b33567.js",
+    "main.js": "/tiaras/static/js/main.d3f43b9c.js",
     "static/media/1000pxfundo1.jpg": "/tiaras/static/media/1000pxfundo1.8c0349815c55ba0048d9.jpg",
     "static/media/2px200.png": "/tiaras/static/media/2px200.300557afffe9bc2703d8.png",
     "static/media/1px200.png": "/tiaras/static/media/1px200.bb36da61750f050a310b.png",
@@ -10,10 +10,10 @@
     "static/media/1fundopequeno.jpg": "/tiaras/static/media/1fundopequeno.3356c4af42791e2f4327.jpg",
     "index.html": "/tiaras/index.html",
     "main.c7ec3132.css.map": "/tiaras/static/css/main.c7ec3132.css.map",
-    "main.e1b33567.js.map": "/tiaras/static/js/main.e1b33567.js.map"
+    "main.d3f43b9c.js.map": "/tiaras/static/js/main.d3f43b9c.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.e1b33567.js"
+    "static/js/main.d3f43b9c.js"
   ]
 }
