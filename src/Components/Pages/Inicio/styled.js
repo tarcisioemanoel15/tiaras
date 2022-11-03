@@ -42,6 +42,7 @@ article div{
   padding: 10px 10px;
   display: grid;
   justify-content: center;
+  cursor: pointer;
 }
 
 article div img{
