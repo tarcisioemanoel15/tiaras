@@ -29,7 +29,7 @@ export default function Inicio() {
           <div onClick={() => setModalVisible(true)}>
             <h6>ID: 1</h6>
             <img src={Tiara1} alt="erroTiara" />
-            <span>R$: 30,00</span>
+            <span>R$: 50,00</span>
           </div>
 
           <div onClick={() => setModalVisible1(true)}>
