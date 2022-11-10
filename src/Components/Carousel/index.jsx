@@ -6,7 +6,7 @@ function Carousel() {
 
   const carouusel = useRef();
   useEffect(() => {
-    fetch('http://localhost:3000/static/images/01/tiaras.json')
+    fetch('./static/images/01/tiaras.json')
       .then(response => response.json())
       .then(setData);
   }, []);

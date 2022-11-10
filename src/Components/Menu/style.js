@@ -20,7 +20,7 @@ a {
 
 header {
   font-family: parisienne;
-  background-color:#e794e2;
+  background-color: #e794e240;
   display: flex;
   justify-content: space-between;
   width: 100%;
